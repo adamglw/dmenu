@@ -7,7 +7,7 @@ static int min_width = 500;        /* minimum width of centered dmenu           
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Hack Nerd Font:weight=regular:pixelsize=15:antialias=true:hinting=true"
+	"Hack Nerd Font:weight=regular:size=11:antialias=true:hinting=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
@@ -20,11 +20,11 @@ static const char *colors[SchemeLast][2] = {
 };
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
-static unsigned int lines      = 9;
+static unsigned int lines      = 10;
 static unsigned int columns    = 3;
 
 /* -h option: minimum height of a menu line */
-static unsigned int lineheight = 22;
+static unsigned int lineheight = 24;
 static unsigned int min_lineheight = 8;
 
 /*
